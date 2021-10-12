@@ -88,7 +88,7 @@ public final class FeatureFlags {
             "PROMISE_APPS_IN_ALL_APPS", false, "Add promise icon in all-apps");
 
     public static final BooleanFlag KEYGUARD_ANIMATION = getDebugFlag(270390904,
-            "KEYGUARD_ANIMATION", false, "Enable animation for keyguard going away on wallpaper");
+            "KEYGUARD_ANIMATION", true, "Enable animation for keyguard going away on wallpaper");
 
     public static final BooleanFlag ENABLE_DEVICE_SEARCH = getReleaseFlag(270390907,
             "ENABLE_DEVICE_SEARCH", true, "Allows on device search in all apps");
@@ -196,7 +196,7 @@ public final class FeatureFlags {
             "Enables scrim during app launch animation.");
 
     public static final BooleanFlag ENABLE_ENFORCED_ROUNDED_CORNERS = getReleaseFlag(270393258,
-            "ENABLE_ENFORCED_ROUNDED_CORNERS", true, "Enforce rounded corners on all App Widgets");
+            "ENABLE_ENFORCED_ROUNDED_CORNERS", false, "Enforce rounded corners on all App Widgets");
 
     public static final BooleanFlag NOTIFY_CRASHES = getDebugFlag(
             270393108, "NOTIFY_CRASHES", false,
@@ -227,7 +227,7 @@ public final class FeatureFlags {
             "Enables displaying the all apps button in the hotseat.");
 
     public static final BooleanFlag ENABLE_ALL_APPS_ONE_SEARCH_IN_TASKBAR = getDebugFlag(270393900,
-            "ENABLE_ALL_APPS_ONE_SEARCH_IN_TASKBAR", false,
+            "ENABLE_ALL_APPS_ONE_SEARCH_IN_TASKBAR", true,
             "Enables One Search box in Taskbar All Apps.");
 
     public static final BooleanFlag ENABLE_SPLIT_FROM_WORKSPACE = getDebugFlag(270393906,
@@ -361,7 +361,7 @@ public final class FeatureFlags {
             "Enables haptics opening/closing All apps");
 
     public static final BooleanFlag ENABLE_FORCED_MONO_ICON = getDebugFlag(270396209,
-            "ENABLE_FORCED_MONO_ICON", false,
+            "ENABLE_FORCED_MONO_ICON", true,
             "Enable the ability to generate monochromatic icons, if it is not provided by the app"
     );
 
