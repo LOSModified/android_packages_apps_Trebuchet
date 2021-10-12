@@ -179,7 +179,7 @@ public final class FeatureFlags {
 
     // TODO(Block 7): Clean up flags
     public static final BooleanFlag ENABLE_FORCED_MONO_ICON = getDebugFlag(270396209,
-            "ENABLE_FORCED_MONO_ICON", DISABLED,
+            "ENABLE_FORCED_MONO_ICON", ENABLED,
             "Enable the ability to generate monochromatic icons, if it is not provided by the app");
 
     // TODO(Block 8): Clean up flags
@@ -255,7 +255,7 @@ public final class FeatureFlags {
             "PROMISE_APPS_IN_ALL_APPS", DISABLED, "Add promise icon in all-apps");
 
     public static final BooleanFlag KEYGUARD_ANIMATION = getDebugFlag(270390904,
-            "KEYGUARD_ANIMATION", DISABLED,
+            "KEYGUARD_ANIMATION", ENABLED,
             "Enable animation for keyguard going away on wallpaper");
 
     public static final BooleanFlag ENABLE_DEVICE_SEARCH = getReleaseFlag(270390907,
@@ -431,7 +431,7 @@ public final class FeatureFlags {
             "Uses a separate recents activity instead of using the integrated recents+Launcher UI");
 
     public static final BooleanFlag ENABLE_ENFORCED_ROUNDED_CORNERS = getReleaseFlag(270393258,
-            "ENABLE_ENFORCED_ROUNDED_CORNERS", ENABLED,
+            "ENABLE_ENFORCED_ROUNDED_CORNERS", DISABLED,
             "Enforce rounded corners on all App Widgets");
 
     public static final BooleanFlag USE_LOCAL_ICON_OVERRIDES = getDebugFlag(270394973,
